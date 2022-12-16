@@ -40,8 +40,8 @@ public class Car {
 
     @Override
     public String toString() {
-        return " марка "+getBrand()+" "+getModel()+"год выпуска "+getYear()+ "сборка в "+ getCountry()+" "+getColor()+
-                " цвета, объем двигателя"+getEngineVolume()+" л.";
+        return " марка: "+getBrand()+", модель: "+getModel()+", год выпуска "+getYear()+ ", сборка в "+ getCountry()+", "+getColor()+
+                " цвет, объем двигателя "+getEngineVolume()+" л.";
     }
 }
 
